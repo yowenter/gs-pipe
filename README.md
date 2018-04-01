@@ -9,6 +9,7 @@ The everything of the internet is all about data communication, with the help of
 Here, I'm to extend the google spreadsheet ability to interact with  other website service :-)
 
 
+![gs pipeline](https://github.com/yowenter/gs-pipe/blob/master/gs-pipeline.png)
 
 ## Usage 
 
