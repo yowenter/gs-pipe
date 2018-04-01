@@ -85,6 +85,14 @@ print(response.json())
 }
 ```
 
+## Customize
+
+Put your `mod.py` into `mods` directory.
+
+Then you can define your own pipeline like: 
+[`gs_pipe.mods.mod.request_html`,`gs_pipe.mods.mod.parse_html`, `gs_pipe.mods.mod.extract_data`]
+It's a simple pipeline for crawlering website.
+
 
 
 ## RUN
