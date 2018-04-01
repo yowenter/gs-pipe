@@ -5,7 +5,6 @@ import logging
 from gs_pipe.pipeline import PipeLine
 from redis import Redis
 from rq import Queue
-from tornado.gen import Return
 
 
 LOG = logging.getLogger(__name__)
