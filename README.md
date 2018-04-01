@@ -89,7 +89,7 @@ print(response.json())
 
 ## RUN
 
-Use `docker run`
+Use `docker-compose -f example.yml up`
 
 
 ## Build
@@ -103,3 +103,8 @@ Use `docker build -f Dockerfile .`
 - [ ] ADD Authorization
 - [ ] Web Console Dashboard
 - [ ] Mods extend 
+- [ ] List Mod API
+- [ ] Task List API
+- [ ] Flask Cors
+
+
