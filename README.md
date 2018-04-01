@@ -95,3 +95,11 @@ Use `docker run`
 ## Build
 
 
+Use `docker build -f Dockerfile .`
+
+
+## RoadMap
+
+- [ ] ADD Authorization
+- [ ] Web Console Dashboard
+- [ ] Mods extend 

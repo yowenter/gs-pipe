@@ -37,3 +37,6 @@ stdout_logfile_maxbytes=0
 EOT
 
 
+exec /usr/bin/supervisord
+
+
