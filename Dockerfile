@@ -15,6 +15,8 @@ COPY redis.conf /etc/redis.conf
 
 COPY supervisord.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/supervisord.sh
+ENV PYTHONPATH  /usr/src/
+
 
 EXPOSE 5000
 

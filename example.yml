@@ -1,0 +1,5 @@
+pipeline:
+  image: daocloud.io/airywenter/gs-pipe
+  restart: always
+  ports:
+  - 5000:5000
