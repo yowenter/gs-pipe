@@ -5,7 +5,7 @@ nodaemon=true
 
 [program:app]
 directory=/usr/src/
-command=gunicorn -k gevent -w 1 --max-requests 50000 --max-requests-jitter 5000 --access-logfile - --error-logfile - -b 0.0.0.0:5000 gs_pipe.api:api
+command=gunicorn -k gevent -w 1 --max-requests 50000 --max-requests-jitter 5000 --access-logfile - --error-logfile - -b 0.0.0.0:5000 gs_pipe.api:app
 autorestart=true
 startsecs=0
 stderr_logfile=/dev/stderr
