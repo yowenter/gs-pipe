@@ -16,5 +16,5 @@ def fetch_html(url):
 
 
 def parse_dianping_address(html):
-    html = Soup(html, "html5lib")
+    html = Soup(html)
     return html.find("div", attrs={"class": "expand-info address"}).find('span', attrs={"class": "item"}).text.strip()
