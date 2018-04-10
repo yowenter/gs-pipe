@@ -5,3 +5,4 @@ flask-restful==0.3.5
 gevent==1.2.1
 greenlet==0.4.12
 gunicorn==19.6.0
+beautifulsoup4==4.6.0
