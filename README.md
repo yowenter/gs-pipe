@@ -111,9 +111,10 @@ Use `docker build -f Dockerfile .`
 
 - [ ] ADD Authorization
 - [ ] Web Console Dashboard
-- [ ] Mods extend 
+- [X] Mods extend 
 - [ ] List Mod API
 - [ ] Task List API
 - [ ] Flask Cors
+- [ ] Graph Computing
 
 
